@@ -50,7 +50,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 USE_CCACHE=0
 
 export BLISS_BUILDTYPE=OFFICIAL
-export BLISS_DEVELOPER=Magicxavi
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.bliss.maintainer=Magicxavi
 
 PRODUCT_PACKAGES += \
     AdvancedControls \
